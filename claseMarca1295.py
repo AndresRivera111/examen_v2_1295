@@ -10,7 +10,6 @@ class Marca1295 :
             "direccion: " : "Colonia Info. Aeropuerto, Calle Dirigible 9363",
             "forma de pago: " : "efectivo"
         }
-        print(diccionario)
         for a,b in diccionario.items():
                 print(a,b)
 
@@ -25,7 +24,6 @@ class Marca1295 :
             "proveedor: " : "Jugueteria 2",
             "clasificacion: " : "mayores de 5 años"
         }
-        print(diccionario)
         for a,b in diccionario.items():
                 print(a,b)
 
@@ -40,9 +38,9 @@ class Marca1295 :
             "distribuidor: " : "Distribuidora Lozano",
             "tipo de producto: " : "juguetes para niño"
         }
-        print(diccionario)
         for a,b in diccionario.items():
                 print(a,b)
+                
     def Diccionario_proveedores_1295(self):
         print("\n")
         diccionario = {
@@ -54,9 +52,9 @@ class Marca1295 :
             "vehiculo: " : "Camion de carga",
             "horario: " : "Lunes a viernes de 6:00 a.m a 6:00 p.m"
         }
-        print(diccionario)
         for a,b in diccionario.items():
                 print(a,b)
+
 objeto1295 = Marca1295()
 objeto1295.Diccionario_clientes_1295()
 objeto1295.Diccionario_juguetes_1295()
